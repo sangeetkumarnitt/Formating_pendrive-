@@ -2,7 +2,7 @@ diskpart
 list disk 
 select disk 1
 clean
-create primary partition
+create partition primary
 active
 select partition 1
 format fs=fat32
